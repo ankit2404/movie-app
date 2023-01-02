@@ -9,7 +9,7 @@ const cookieParser = require("cookie-parser");
 const MongoDbStore = require("connect-mongo");
 const path = require("path");
 require("dotenv").config();
-app.use(express.urlencoded());
+// app.use(express.urlencoded());
 app.use(express.json());
 app.use(cookieParser());
 
